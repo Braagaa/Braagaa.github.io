@@ -1,0 +1,44 @@
+header {
+	background: none;
+	min-height: 150px;
+}
+
+
+
+#gallery {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#gallery ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#gallery ul li {
+	display: inline-block;
+	padding: 1em;
+}
+
+img {
+	border: #0499ff solid 3px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	#gallery ul  li{
+		display: block;
+		padding: 1em 0;
+	}
+	
+	#gallery {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}
